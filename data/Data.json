@@ -1,0 +1,170 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "user": {
+                "id": 101,
+                "username": "john_doe",
+                "profile_pic": "src/assets/image/profile-1.jpg"
+            },
+            "image": "src/assets/image/image-1.jpg",
+            "caption": "Beautiful sunset 🌅 #Nature",
+            "likes": 120,
+            "comments": [
+                {
+                    "user": "alice_wonder",
+                    "comment": "Wow! Amazing shot! 📸"
+                },
+                {
+                    "user": "mark_92",
+                    "comment": "Where is this place?"
+                }
+            ],
+            "timestamp": "2025-02-11T14:30:00Z"
+        },
+        {
+            "id": 2,
+            "user": {
+                "id": 102,
+                "username": "sara_dev",
+                "profile_pic": "/src/assets/image/profile-2.jpg"
+            },
+            "image": "/src/assets/image/image-2.png",
+            "caption": "Learning React everyday 💻🔥",
+            "likes": 89,
+            "comments": [
+                {
+                    "user": "john_doe",
+                    "comment": "Nice setup!"
+                }
+            ],
+            "timestamp": "2025-02-12T10:00:00Z"
+        },
+        {
+            "id": 3,
+            "user": {
+                "id": 103,
+                "username": "rahul_dev",
+                "profile_pic": "/src/assets/image/profile-3.webp"
+            },
+            "image": "/src/assets/image/image-3.webp",
+            "caption": "Morning coffee ☕ and coding 💻",
+            "likes": 56,
+            "comments": [
+                {
+                    "user": "john_doe",
+                    "comment": "Perfect combo 😄"
+                },
+                {
+                    "user": "sara_dev",
+                    "comment": "Coding time! 🚀"
+                }
+            ],
+            "timestamp": "2025-02-13T08:15:00Z"
+        },
+        {
+            "id": 4,
+            "user": {
+                "id": 104,
+                "username": "priya_travel",
+                "profile_pic": "/src/assets/image/profile4.jpg"
+            },
+            "image": "/src/assets/image/image-4.webp",
+            "caption": "Exploring new places 🌍✈️",
+            "likes": 210,
+            "comments": [
+                {
+                    "user": "rahul_dev",
+                    "comment": "Looks amazing!"
+                },
+                {
+                    "user": "john_doe",
+                    "comment": "Adding this to my travel list 😍"
+                }
+            ],
+            "timestamp": "2025-02-14T16:20:00Z"
+        }
+    ],
+    "profile": {
+        "id": 105,
+        "username": "Tanjiro_skn",
+        "profile_pic": "/src/assets/image/profile-i'm.jpg"
+    },
+    "suggestions": [
+        {
+            "id": 106,
+            "username": "nature_snapper",
+            "profile_pic": "/src/assets/image/106-profile.webp"
+        },
+        {
+            "id": 107,
+            "username": "wander_with_me",
+            "profile_pic": "/src/assets/image/107-profile.png"
+        },
+        {
+            "id": 108,
+            "username": "dreamer_99",
+            "profile_pic": "/src/assets/image/108-profile.jpg"
+        },
+        {
+            "id": 109,
+            "username": "coffee_addict",
+            "profile_pic": "/src/assets/image/109-profile.webp"
+        },
+        {
+            "id": 110,
+            "username": "advenchu_seekr",
+            "profile_pic": "/src/assets/image/110-profile.jpg"
+        },
+        {
+            "id": 111,
+            "username": "techco_journey",
+            "profile_pic": "/src/assets/image/111-profile.jpg"
+        }
+    ],
+
+    
+    "stories": [
+        {
+            "id": 1,
+            "user": {
+                "id": 101,
+                "username": "john_doe",
+                "profile_pic": "src/assets/image/profile-1.jpg"
+            },
+            "image": "src/assets/image/s-1.jpg"
+            
+        },
+        {
+            "id": 2,
+            "user": {
+                "id": 102,
+                "username": "sara_dev",
+                "profile_pic": "/src/assets/image/profile-2.jpg"
+            },
+            "image": "/src/assets/image/s-2.avif"
+           
+           
+        },
+        {
+            "id": 3,
+            "user": {
+                "id": 103,
+                "username": "rahul_dev",
+                "profile_pic": "/src/assets/image/profile-3.webp"
+            },
+            "image": "/src/assets/image/s-3.jpg"
+          
+        },
+        {
+            "id": 4,
+            "user": {
+                "id": 104,
+                "username": "priya_travel",
+                "profile_pic": "/src/assets/image/profile4.jpg"
+            },
+            "image": "/src/assets/image/s-4.jpg"
+           
+        }
+    ]
+}
