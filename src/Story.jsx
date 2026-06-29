@@ -22,7 +22,7 @@ function Story() {
 
 
   return (
-    <div className='suggestion d-flex justify-content-center align-items-center m-2 gap-3 '>
+    <div className='suggestion d-flex justify-content-center align-items-center m-2  gap-3 '>
       {profile ? 
     
         <div key={profile.id}>

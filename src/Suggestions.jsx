@@ -24,7 +24,7 @@ function Suggestions() {
     []);
 
   return (
-    <div className='suggestion m-2 '>
+    <div className='suggestion m-2 d-none d-sm-block'>
       {profile ?
         <div className='d-flex m-2 align-items-center'>
           <img className='rounded-circle dp' src={profile.profile_pic} alt="profile pic" />

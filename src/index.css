@@ -3,13 +3,24 @@ body {
   background-color: rgb(241, 244, 247);
 }
 
+/* .w-10 {
+  width: 10%;
+}
+
 .w-20 {
   width: 20%;
 }
+.w-70{
+  width:70%;
+} */
 
-.w-30 {
-  width: 30%;
-}
+/* .siderbar-container{
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(247, 250, 252);
+  border-radius: 5px;
+
+} */
 
 .fb-name {
   width: 100px;
@@ -19,17 +30,26 @@ body {
   margin-right: 10px;
 }
 
+/* sidebar-icon-div */
 .div {
   padding: 2px;
+  cursor: pointer;
 }
 
 .div:hover {
-  background-color: rgb(229, 231, 233);
+  background-color: rgb(206, 208, 209);
   color: rgb(24, 24, 24);
   border-radius: 5px;
+  padding: 2px;
+
 
 }
 
+/* .story-container{
+  width: 100%;
+  background-color: rgb(247, 250, 252);
+  border-radius: 5px;
+} */
 .story {
   height: 130px;
 
@@ -47,10 +67,11 @@ body {
   object-fit: cover;
 }
 
+
 .post-container {
   background-color: rgb(249, 249, 249);
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -58,14 +79,105 @@ body {
 }
 
 .add-post {
+  width: 100%;
   background-color: rgb(254, 254, 255);
   border-radius: 5px;
   box-shadow: 0 5px 5px 5px rgb(213, 214, 215);
 }
 
+.add-post-pic {
+  padding: 10px;
+  background-color: rgb(254, 254, 255);
+  color: rgb(199, 200, 201);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(238, 240, 241);
+}
+
+/* add image icons colors class */
+/* gallery */
+.icon-text {
+  color: rgb(11, 49, 90);
+}
+
+.icon-g-container {
+  background-color: rgb(246, 142, 220);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon-g {
+  background-color: rgb(218, 24, 169);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* video */
+.icon-v-container {
+  background-color: rgb(155, 202, 240);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon-v {
+  background-color: rgb(27, 102, 244);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* location */
+
+.icon-l-container {
+  background-color: rgb(155, 240, 164);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon-l {
+  background-color: rgb(22, 202, 31);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* gif */
+.icon-gif-container {
+  background-color: rgb(155, 195, 240);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon-gif {
+  background-color: rgb(9, 126, 199);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+/* activity */
+.icon-a-container {
+  background-color: rgb(245, 241, 133);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.icon-a {
+  background-color: rgb(203, 197, 25);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .images {
   width: 100%;
-  max-width: 500px;
+  /* max-width: 700px; */
 
 }
 
@@ -97,9 +209,48 @@ body {
   height: 90px;
   border-radius: 6px;
 }
-.story-dp:hover{
-     box-shadow: 2px 2px 2px 2px rgb(196, 196, 200);
+
+/* main-profile-page-profile-css */
+.profile {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgb(251, 251, 252);
+  border-radius: 50%;
+  margin-top: 100px;
 }
+
+/* profile top container for white background */
+.profile-container {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(252, 252, 253);
+  border-radius: 10px;
+
+}
+
+.profile-background {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+}
+
+.profile-list-con {
+  background-color: rgb(216, 218, 221);
+  border-radius: 10px;
+}
+
+/* personal-details container */
+.p-d-container {
+  background-color: rgb(245, 248, 251);
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 5px rgb(213, 214, 215);
+
+
+}
+
+/* .story-dp:hover{
+     box-shadow: 2px 2px 2px 2px rgb(196, 196, 200);
+} */
 
 /* 
 @media screen (max-width:600px) {

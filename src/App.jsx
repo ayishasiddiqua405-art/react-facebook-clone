@@ -7,16 +7,16 @@ import Suggestions from './Suggestions'
 function App() {
   return (
     <div className='d-flex vh-100'>
-      <div className='w-20'>
+      <div style={{width: "250px"}}>
       
         <Sidebar/>
       </div>
 
-      <div className='w-50'>
+      <div className='flex-grow-1'>
         <Homepage/>
       </div>
 
-      <div className='w-30'>
+      <div  style={{width: "350px"}}>
         <Suggestions/>
       </div>
     </div>

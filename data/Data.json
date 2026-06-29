@@ -88,7 +88,13 @@
     "profile": {
         "id": 105,
         "username": "Tanjiro_skn",
-        "profile_pic": "/src/assets/image/profile-i'm.jpg"
+        "profile_pic": "/src/assets/image/profile-i'm.jpg",
+        "image1": "src/assets/image/post-2.jpg",
+        "caption1": "fall in love",
+        "likes1": "27",
+         "image2": "src/assets/image/post-1.avif",
+         "caption2":"Everything is a Magic" ,
+         "likes2":"25"
     },
     "suggestions": [
         {
@@ -122,8 +128,6 @@
             "profile_pic": "/src/assets/image/111-profile.jpg"
         }
     ],
-
-    
     "stories": [
         {
             "id": 1,
@@ -133,7 +137,6 @@
                 "profile_pic": "src/assets/image/profile-1.jpg"
             },
             "image": "src/assets/image/s-1.jpg"
-            
         },
         {
             "id": 2,
@@ -143,8 +146,6 @@
                 "profile_pic": "/src/assets/image/profile-2.jpg"
             },
             "image": "/src/assets/image/s-2.avif"
-           
-           
         },
         {
             "id": 3,
@@ -154,7 +155,6 @@
                 "profile_pic": "/src/assets/image/profile-3.webp"
             },
             "image": "/src/assets/image/s-3.jpg"
-          
         },
         {
             "id": 4,
@@ -164,7 +164,24 @@
                 "profile_pic": "/src/assets/image/profile4.jpg"
             },
             "image": "/src/assets/image/s-4.jpg"
-           
+        },
+        {
+            "id": 5,
+            "user": {
+                "id": 105,
+                "username": "pinky_ping",
+                "profile_pic": "/src/assets/image/profile-5.avif"
+            },
+            "image": "/src/assets/image/s-5.jpg"
+        },
+        {
+            "id": 6,
+            "user": {
+                "id": 106,
+                "username": "dravin-drone",
+                "profile_pic": "/src/assets/image/profile-6.png"
+            },
+            "image": "/src/assets/image/s-6.avif"
         }
     ]
 }
